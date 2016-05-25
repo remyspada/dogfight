@@ -24,14 +24,13 @@ public class GraphicsBuilder implements IGraphicsBuilder{
 		
 	}
 	
-	private GlobalWidth globalWidth;
 	
-	public void getGlobalWidth() {
-		return globalWidth;
+	public int getGlobalWidth() {
+		return 1;
 	}
 	
-	public void getGlobalHeight() {
-		return GlobalHeight;
+	public int getGlobalHeight() {
+		return 1;
 	}
 	
 
