@@ -1,8 +1,9 @@
 package jpu2016.dogfight.model;
 
 import java.util.ArrayList;
+import java.util.Observable;
 
-public class DogfightModel {
+public class DogfightModel extends Observable implements IDogfightModel {
 	private IArea area;
 	private ArrayList<IMobile> Mobiles;
 	private IMobile Player;
